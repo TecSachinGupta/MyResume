@@ -16,10 +16,40 @@
 	  <link href = "css/style.css" rel = "stylesheet">
   </head>
   <body>
+    <div class="loader-wrapper" id="loader">
+      <div class="loader">
+        <div id="top" class="mask">
+            <div class="plane"></div>
+        </div>
+        <div id="middle" class="mask">
+            <div class="plane"></div>
+        </div>
 
+        <div id="bottom" class="mask">
+            <div class="plane"></div>
+        </div>
+        <p><i>LOADING...</i></p>
+      </div>
+    </div>
     <header>
-
+      <i class="navbar-toggler" >
+        <span class="nav-icon">
+            <span></span><span></span><span></span>
+        </span>
+      </i>
+      <a class="navbar-brand" href="#main"><img src="img/logo.png" alt="logo" /></a>
     </header>
+
+    <nav>
+      <ul>
+          <li><i class="nav-close icon-cross3"></i></li>
+          <li><a href="#main">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
     <div class="content" id="content">
 
