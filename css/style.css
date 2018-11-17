@@ -171,9 +171,9 @@ a:hover {
 }
 .scroll-toggle i {
 	cursor: pointer;
-	font-size: 40px;
-	height: 50px;
-	width: 50px;
+	font-size: 30px;
+	height: 40px;
+	width: 40px;
 	text-align: center;
 	padding-top: 3px;
 	color: rgba(255, 2555, 255, 0.2);
@@ -655,6 +655,54 @@ nav ul li a:hover:after {
 	font-family: 'NovaOval';
 }
 
+.services-carousel-item {
+	position: relative;
+	overflow: hidden;
+	padding: 20px 25px;
+	height: 170px;
+}
+.services-carousel-item .icon {
+	display: inline-block;
+	font-size: 38px;
+	color: #fff;
+	margin-bottom: 40px;
+}
+.services-carousel-item .link {
+	position: absolute;
+	cursor: pointer;
+	right: 0;
+	bottom: 40px;
+	display: inline-block;
+	color: #fff;
+	font-size: 12px;
+	padding: 10px;
+	background: rgba(0, 0, 0, 0.2);
+}
+.services-carousel-item .link:hover {
+	background: rgba(0, 0, 0, 0.4);
+}
+.services-carousel-item .title {
+	font-size: 19px;
+	font-family: 'Roboto';
+	line-height: 21px;
+	font-weight: 400;
+	margin: 0;
+}
+.services-carousel-item.logo {
+	background: #382652;
+}
+.services-carousel .services-carousel-item.customers {
+	background: #4d6baa;
+}
+.services-carousel-item.music {
+	background: #e55b01;
+}
+.services-carousel-item.support {
+	background: #ea6060;
+}
+.services-carousel-item.admin {
+	background: #A745F7;
+}
 
 /**
 * Timeline CSS
@@ -762,4 +810,12 @@ nav ul li a:hover:after {
 .awards-box ul li h3,
 .awards-box ul li p {
 	padding-left: 5px;
+}
+
+
+@media (max-width: 33.9em){
+  .container-fluid{
+    padding-left: 40px;
+    padding-right: 20px;
+  }
 }

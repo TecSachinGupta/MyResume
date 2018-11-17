@@ -84,11 +84,11 @@ var sachinGupta = {
 
 	scrollToggle: function () {
 		jQuery('.scroll-toggle.down i').on('click', function () {
-			jQuery.fn.fullpage.moveSectionDown();
+			fullpage_api.moveSectionDown();
 		});
 
 		jQuery('.scroll-toggle.up i').on('click', function () {
-			$.fn.fullpage.moveTo('main');
+			fullpage_api.moveTo('main');
 		});
 	},
 
