@@ -3,7 +3,7 @@ var sachinGupta = {
 			this.module();
 	},
 	module : function () {
-		this.myFullpage;
+		this.myFullpageInit();
 		this.navigationToggle();
 		this.scrollToggle();
 		this.timeLineScrollBox();
@@ -12,6 +12,7 @@ var sachinGupta = {
 		this.scrollToTop();
 		this.carousel();
 	},
+	myFullpageInit : function(){
 	myFullpage = new fullpage('#content', {
 		licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
 		menu: '#menu',
@@ -56,7 +57,7 @@ var sachinGupta = {
 		verticalCentered: true,
 		paddingTop: '3.2em',
 		paddingBottom: '10px',
-		fixedElements: '.header, .footer',
+		fixedElements: '.header, .fixed-area',
 		responsiveWidth: 0,
 		responsiveHeight: 0,
 		responsiveSlides: true,
@@ -66,7 +67,8 @@ var sachinGupta = {
 		sectionSelector: '.section',
 		slideSelector: '.slide',
 		lazyLoading: true
-	}),
+	})
+	},
 	navigationToggle: function () {
 		jQuery('.navbar-toggler').on('click', function () {
 			jQuery('nav').addClass('open');
