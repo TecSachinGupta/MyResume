@@ -8,7 +8,7 @@
     <meta name="keywords" content="Sachin Gupta, Resume,  portfolio,  clean, modern, minimal, web">
     <meta name="author" content="Sachin Gupta">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <title>Sachin Gupta: Portfolio</title>
+    <title>Sachin Gupta: Resume</title>
     <link href = "css/bootstrap.min.css" rel = "stylesheet">
 	  <link href = "css/fullpage.min.css" rel = "stylesheet">
 	  <link href = "css/all.min.css" rel = "stylesheet">
@@ -198,11 +198,17 @@
                       <li>
                           <h3><i class="icon-hadoop" style="font-size:40px;"></i>Hadoop</h3>
                       </li>
+					  <li>
+                          <h3><i class="icon-spring" style="font-size:40px;"></i>Spring & Spring Boot</h3>
+                      </li>
                       <li>
                           <h3><i class="icon-java" style="font-size:40px;"></i>Java</h3>
                       </li>
                       <li>
-                          <h3><i class="icon-html5-alt" style="font-size:30px;"></i>HTML &nbsp; <i class="icon-css3-alt" style="font-size:30px;"></i>CSS</h3>
+                          <h3><i class="icon-html5-alt" style="font-size:30px;"></i>HTML </h3>
+                      </li>
+					            <li>
+                          <h3><i class="icon-css3-alt" style="font-size:30px;"></i>CSS</h3>
                       </li>
                       <li>
                           <h3><i class="icon-javascript" style="font-size:40px;"></i>Javascript</h3>
@@ -219,13 +225,37 @@
 				</div>
       </div>
       <div class="section bg-portfolio" data-anchors="portfolio">
+        <div class="container-fluid">
+          <div class="row my-4">
+            <div class="col-md-4">
+              <div class="title">
+                  <h2 class="section-title" style="color: #fff;">Portfolio</h2>
+                  <p class="section-sub-title" style="color: #fff;">My Application and Projects</p>
+              </div>
+            </div>
+          </div>
 
+
+        </div>
         <div class="scroll-toggle down">
           <i class="fas fa-angle-down"></i>
           <span>Scroll down</span>
         </div>
       </div>
       <div class="section bg-blog" data-anchors="blog">
+        <div class="container-fluid">
+          <div class="row my-4">
+            <div class="col-4">
+              <div class="title">
+                  <h2 class="section-title" style="color: #fff;">Blogs</h2>
+                  <p class="section-sub-title" style="color: #fff;">The Knowledge I have</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+
+          </div>
+        </div>
 
         <div class="scroll-toggle down">
           <i class="fas fa-angle-down"></i>
@@ -233,11 +263,90 @@
         </div>
       </div>
       <div class="section bg-contact" data-anchors="contact">
+        <div class="contact-wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col my-4">
+                <div class="title">
+                    <h2 class="section-title" style="color: #fff;">Contact Me</h2>
+                    <p class="section-sub-title" style="color: #fff;">Lets Talk.Just Leave a Comment</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <div class="info-box">
+                      <div class="row row-fit-20">
+                        <div class="col-sm-6">
+                          <div class="info-box-item phone-item">
+                            <i class="icon fas fa-mobile-alt"></i>
+                            <h5>Phone</h5>
+                            <p>(+91) 99 99 236 268</p>
+                          </div>
+                        </div>
+
+                          <div class="col-sm-6">
+                              <div class="info-box-item mail-item">
+                                  <i class="icon far fa-envelope-open"></i>
+                                  <h5>Mail</h5>
+                                  <a href="mailto:caontact@sachingupta.me" style="float:right;">sachingupta26<br/>@yahoo.com</a>
+                              </div>
+                          </div>
+
+                          <div class="col-sm-6">
+                              <div class="info-box-item office-item">
+                                  <i class="icon fas fa-map-marker-alt"></i>
+                                  <h5>Office</h5>
+                                  <p>RZF 754/10 Rajnagar II<br />New Delhi, IN</p>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <form class="contact-form" id="contact-form" action="esend();" method="post">
+                      <div class="row">
+                      <div class="col-sm-6">
+                          <div class="input-group">
+                              <input type="text" name="name_html" class="contact-line" id="main-contact-name"> <br />
+                              <label for="main-contact-name">Enter your Name</label>
+                          </div>
+                      </div>
+                      <div class="col-sm-6">
+                          <div class="input-group">
+                              <input type="text" name="email_html" class="contact-line" id="main-contact-email"> <br />
+                              <label for="main-contact-email">Enter email</label>
+                          </div>
+                      </div>
+
+                      <div class="col-sm-12">
+                          <div class="input-group">
+                              <input type="text" name="subject_html" class="contact-line" id="main-contact-website"> <br />
+                              <label for="main-contact-website">Subject</label>
+                          </div>
+                          <div class="input-group">
+                              <textarea name="message_html" class="contact-area" id="main-contact-message"></textarea> <br />
+                              <label for="main-contact-message">Comment</label>
+                          </div>
+                          <input type="submit" value="Leave a reply" class="contact-button contact-send">
+                          <input type="hidden" name="action" value="contact">
+                      </div>
+                    </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
 
 
-        <div class="scroll-toggle up">
-          <i class="fas fa-angle-down"></i>
-          <span>Scroll Top</span>
+          </div>
+
+          <div class="scroll-toggle up">
+            <i class="fas fa-angle-down"></i>
+            <span>Scroll Top</span>
+          </div>
         </div>
       </div>
     </div>
