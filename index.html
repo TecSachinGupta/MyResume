@@ -485,7 +485,7 @@
                 </div>
               </div>
               <div class="col">
-                <form class="contact-form" id="contact-form" action="esend();" method="post">
+                <form class="contact-form" id="contact-form" name="contact-form" method="post">
                   <div class="row">
                   <div class="col-sm-6">
                       <div class="input-group">
@@ -534,7 +534,13 @@
     <script src="js/fullpage.min.js" type="text/javascript"></script>
     <script src="js/main.js" type="text/javascript"></script>
     <script type="text/javascript">
-      const form = '', scriptUrl ='';
+      const form = document.forms['contact-form'], scriptUrl ='https://script.google.com/macros/s/AKfycbzjJ26uqaCd70xOG6KNysjh6dSA02wyW200wjRr8DvzSDC3LDE/exec';
+	form.addEventListener('submit', e => {
+   	 e.preventDefault()
+   	 fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      		.then(response => console.log('Success!', response))
+      		.catch(error => console.error('Error!', error.message))
+  })
     </script>
   </body>
 </html>
