@@ -72,13 +72,16 @@ var sachinGupta = {
 	navigationToggle: function () {
 		jQuery('.navbar-toggler').on('click', function () {
 			jQuery('nav').addClass('open');
+			jQuery('.navbar-toggler').addClass('d-none');
 		});
 		jQuery('.nav-close').on('click', function () {
 			jQuery('nav').removeClass('open');
+			jQuery('.navbar-toggler').removeClass('d-none');
 		});
 
 		jQuery('nav ul li a').on('click', function () {
 			jQuery('nav').removeClass('open');
+			jQuery('.navbar-toggler').removeClass('d-none');
 		});
 	},
 
