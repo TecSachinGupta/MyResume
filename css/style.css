@@ -25,27 +25,20 @@ li {list-style: none}
 a,a:active,a:focus,a:hover {text-decoration: none}
 .section-content {position: relative;height: 100vh;}
 
-.bg-main {background-image: url('../img/mainBg.png');
-}
-.bg-about {background-image: url('../img/aboutBg.png');
-}
-.bg-portfolio {background-image: url('../img/arches.png');
-}
-.bg-blog {background-image: url('../img/foggybirds.png')
-}
+.bg-main {background-image: url('../img/mainBg.png');}
+.bg-about {background-image: url('../img/aboutBg.png');}
+.bg-portfolio {background-image: url('../img/arches.png');}
+.bg-blog {background-image: url('../img/foggybirds.png')}
 .bg-contact {
 background-image:linear-gradient(rgba(34, 34, 34, 0.9),rgba(34, 34, 34, 0.9)), url('../img/contact-bg.jpg');
-background-size: cover;height: 100vh;
-}
+background-size: cover;height: 100vh;}
 .content {opacity: 1;
 -webkit-transition: .4s all cubic-bezier(.23,1,.32,1);-moz-transition: .4s all cubic-bezier(.23,1,.32,1);-ms-transition: .4s all cubic-bezier(.23,1,.32,1);-o-transition: .4s all cubic-bezier(.23,1,.32,1);transition: .4s all cubic-bezier(.23,1,.32,1);
 -webkit-transition-delay: .35s;-moz-transition-delay: .35s;-ms-transition-delay: .35s;-o-transition-delay: .35s;transition-delay: .35s;
 }
-.scroll-toggle {position: absolute;z-index: 1;bottom: 50px;left: 50%;margin-left: -26px;
-}
+.scroll-toggle {position: absolute;z-index: 1;bottom: 50px;left: 50%;margin-left: -26px;}
 .scroll-toggle i,
-.scroll-toggle span {display: block;
-}
+.scroll-toggle span {display: block;}
 .scroll-toggle i {cursor: pointer;font-size: 30px;height: 40px;width: 40px;text-align: center;padding-top: 3px;color: rgba(255, 2555, 255, 0.2);border: 3px solid rgba(255, 255, 255, 0.2);border-radius: 50%;
 }
 .scroll-toggle.up i {-webkit-transform: rotate(180deg);-moz-transform: rotate(180deg);-ms-transform: rotate(180deg);-o-transform: rotate(180deg);transform: rotate(180deg);
