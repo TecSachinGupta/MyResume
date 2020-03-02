@@ -3,9 +3,16 @@ import React from 'react';
 class Skills extends React.Component {
 	render() {
 		return (
-			<div>
-				Hello
-			</div>
+			<ul className="skillsDetails">
+				<li><a href="#"> <span className=""></span> </a></li>
+				<li><a href="#"> <span className=""></span> </a></li>
+				<li><a href="#"> <span className=""></span> </a></li>
+				<li><a href="#"> <span className=""></span> </a></li>
+				<li><a href="#"> <span className=""></span> </a></li>
+				<li><a href="#"> <span className=""></span> </a></li>
+				<li><a href="#"> <span className=""></span> </a></li>
+				<li><a href="#"> <span className=""></span> </a></li>
+			</ul>
 		);
 	}
 }
