@@ -1,9 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import './App.scss';
 import Contact from './components/contact';
 import Education from './components/education';
-import Experience from './components/education';
+import Experience from './components/experience';
 import Header from './components/header';
 import Heading from './components/education';
 import Skills from './components/education';
@@ -24,7 +25,8 @@ function App() {
 					
 				</div>
 				<div className="column col-7">
-				
+					<Education></Education>
+					<Experience></Experience>
 				</div>
 			</div>
 		</div>
