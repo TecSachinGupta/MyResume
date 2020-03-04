@@ -1,38 +1,163 @@
 .App {
-  text-align: center;
+	padding: 3rem 5rem;
+}
+/* Timeline sample 1 */
+.history-tl-container{
+  font-family: "Roboto",sans-serif;
+width:50%;
+margin:auto;
+display:block;
+position:relative;
+}
+.history-tl-container ul.tl{
+  margin:20px 0;
+  padding:0;
+  display:inline-block;
+
+}
+.history-tl-container ul.tl li{
+  list-style: none;
+  margin:auto;
+  margin-left:200px;
+  min-height:50px;
+  /*background: rgba(255,255,0,0.1);*/
+  border-left:1px dashed #86D6FF;
+  padding:0 0 50px 30px;
+  position:relative;
+}
+.history-tl-container ul.tl li:last-child{ border-left:0;}
+.history-tl-container ul.tl li::before{
+  position: absolute;
+  left: -18px;
+  top: -5px;
+  content: " ";
+  border: 8px solid rgba(255, 255, 255, 0.74);
+  border-radius: 500%;
+  background: #258CC7;
+  height: 20px;
+  width: 20px;
+  transition: all 500ms ease-in-out;
+
+}
+.history-tl-container ul.tl li:hover::before{
+  border-color:  #258CC7;
+  transition: all 1000ms ease-in-out;
+}
+ul.tl li .item-title{
+}
+ul.tl li .item-detail{
+  color:rgba(0,0,0,0.5);
+  font-size:12px;
+}
+ul.tl li .timestamp{
+  color: #8D8D8D;
+  position: absolute;
+  width:100px;
+  left: -80%;
+  text-align: right;
+  font-size: 12px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Timeline sample 2 */
+
+/* Layout */
+.timeline-2 {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Styling */
+.timeline-2 ul.timeline li {
+	list-style:none;
+}
+.timeline-2 .timeline {
+  margin: 4em auto;
+  position: relative;
+  max-width: 46em; 
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+}
+.timeline-2 .timeline:before {
+  background-color: black;
+  content: '';
+  margin-left: -1px;
+  position: absolute;
+  top: 0;
+  left: 2em;
+  width: 2px;
+  height: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.timeline-2 .timeline-event {
+  position: relative;
+}
+.timeline-2 .timeline-event-icon {
+  -moz-transition: -moz-transform 0.2s ease-in;
+  -o-transition: -o-transform 0.2s ease-in;
+  -webkit-transition: -webkit-transform 0.2s ease-in;
+  transition: transform 0.2s ease-in;
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: black;
+  outline: 10px solid white;
+  display: block;
+  margin: 0.5em 0.5em 0.5em -0.5em;
+  position: absolute;
+  top: 0;
+  left: 2em;
+  width: 1em;
+  height: 1em;
+}
+
+.timeline-2 .timeline-event-thumbnail {
+  -moz-transition: box-shadow 0.5s ease-in 0.1s;
+  -o-transition: box-shadow 0.5s ease-in 0.1s;
+  -webkit-transition: box-shadow 0.5s ease-in;
+  -webkit-transition-delay: 0.1s;
+  transition: box-shadow 0.5s ease-in 0.1s;
   color: white;
+  font-size: 0.75em;
+  background-color: black;
+  -moz-box-shadow: inset 0 0 0 0em #ef795a;
+  -webkit-box-shadow: inset 0 0 0 0em #ef795a;
+  box-shadow: inset 0 0 0 0em #ef795a;
+  display: inline-block;
+  margin-bottom: 1.2em;
+  padding: 0.25em 1em 0.2em 1em;
+}
+.timeline-2 .timeline-event:hover .timeline-event-icon {
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  background-color: #a83279;
+}
+.timeline-2 .timeline-event:hover .timeline-event-thumbnail {
+  -moz-box-shadow: inset 40em 0 0 0 #a83279;
+  -webkit-box-shadow: inset 40em 0 0 0 #a83279;
+  box-shadow: inset 40em 0 0 0 #a83279;
 }
 
-.App-link {
-  color: #61dafb;
+.timeline-2 .timeline-event-copy {
+  padding: 2em;
+  position: relative;
+  top: -1.875em;
+  left: 4em;
+  width: 80%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.timeline-2 .timeline-event-copy h3 {
+  font-size: 1.75em;
+}
+.timeline-event-copy h4 {
+  font-size: 1.2em;
+  margin-bottom: 1.2em;
+}
+.timeline-2 .timeline-event-copy strong {
+  font-weight: 700;
+}
+.timeline-2 .timeline-event-copy p:not(.timeline-event-thumbnail) {
+  padding-bottom: 1.2em;
 }

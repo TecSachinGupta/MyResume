@@ -1,7 +1,7 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import './App.scss';
+import 'spectre.css';
 import Contact from './components/contact';
 import Education from './components/education';
 import Experience from './components/experience';
@@ -13,21 +13,24 @@ function App() {
   return (
     <div className="App">
 		<div className="container">
+			<div className="card">
 			
-			<div className="columns">
-				<div className="column col-12">
-					<Header></Header>
+				<div className="columns">
+					<div className="column col-12">
+						<Header></Header>
+					</div>
 				</div>
-			</div>
+				
+				<div className="columns">
+					<div className="column col-5">
+						
+					</div>
+					<div className="column col-7">
+						<Education></Education>
+						<Experience></Experience>
+					</div>
+				</div>
 			
-			<div className="columns">
-				<div className="column col-5">
-					
-				</div>
-				<div className="column col-7">
-					<Education></Education>
-					<Experience></Experience>
-				</div>
 			</div>
 		</div>
     </div>
