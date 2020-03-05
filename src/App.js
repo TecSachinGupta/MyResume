@@ -14,23 +14,25 @@ function App() {
     <div className="App">
 		<div className="container">
 			<div className="card">
+				<div className="card-body">
 			
-				<div className="columns">
-					<div className="column col-12">
-						<Header></Header>
+					<div className="columns">
+						<div className="column col-12">
+							<Header></Header>
+						</div>
 					</div>
-				</div>
-				
-				<div className="columns">
-					<div className="column col-5">
-						
+					
+					<div className="columns">
+						<div className="column col-5">
+							
+						</div>
+						<div className="column col-7">
+							<Education></Education>
+							<Experience></Experience>
+						</div>
 					</div>
-					<div className="column col-7">
-						<Education></Education>
-						<Experience></Experience>
-					</div>
-				</div>
 			
+				</div>
 			</div>
 		</div>
     </div>
