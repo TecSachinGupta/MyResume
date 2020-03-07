@@ -6,8 +6,8 @@ import Contact from './components/contact';
 import Education from './components/education';
 import Experience from './components/experience';
 import Header from './components/header';
-import Heading from './components/education';
-import Skills from './components/education';
+import Heading from './components/heading';
+import Skills from './components/skills';
 
 function App() {
   return (
@@ -21,12 +21,13 @@ function App() {
 							<Header></Header>
 						</div>
 					</div>
-					
+					<div className="divider-vert"></div>
 					<div className="columns">
-						<div className="column col-5">
-							
+						<div className="column col-4">
+							<Skills></Skills>
 						</div>
-						<div className="column col-7">
+						
+						<div className="column col-8">
 							<Education></Education>
 							<Experience></Experience>
 						</div>
