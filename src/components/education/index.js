@@ -11,8 +11,8 @@ class Education extends React.Component {
 						</div>
 						<div className="timeline-marker"></div>
 						<div className="timeline-content">
-							<h2>Start from Shire</h2>
-							<p>Don't forget the ring.Don't forget the ring</p>
+							<h2>Start from ShireStart from ShireStart from ShireStart from ShireStart from ShireStart from ShireStart from Shire</h2>
+							<p>Don't forget the ring.Don't forget the ring Start from ShireStart from ShireStart from ShireStart from ShireStart from ShireStart from ShireStart from Shire</p>
 						</div>
 					</li>
 					<li className="timeline-item">

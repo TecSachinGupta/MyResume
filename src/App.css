@@ -49,7 +49,14 @@
   text-transform: uppercase;
   white-space: nowrap;
 }
+.timeline-1 .marker-outline .timeline-marker:before {
+  background: transparent;
+  border-color: #FF6B6B;
+}
 
+.timeline-1 .marker-outline .timeline-item:hover .timeline-marker:before {
+  background: #FF6B6B;
+}
 .timeline-1 .timeline-marker {
   position: absolute;
   top: 0;
@@ -132,9 +139,9 @@
 .timeline-2 {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
 .timeline-2 ul.timeline li { list-style:none;}
 .timeline-2 .timeline {
-  margin: 4em auto;
+  /* margin: 4em auto; */
   position: relative;
-  max-width: 46em; 
+  min-width: 46em; 
   line-height: 1.5;
   letter-spacing: 0.05em;
 }
@@ -205,13 +212,14 @@
   top: -1.875em;
   left: 4em;
   width: 80%;
+  padding-bottom: 0;
 }
 .timeline-2 .timeline-event-copy h3 {
   font-size: 1.75em;
 }
 .timeline-event-copy h4 {font-size: 1.2em;margin-bottom: 1.2em;}
 .timeline-2 .timeline-event-copy strong {font-weight: 700;}
-.timeline-2 .timeline-event-copy p:not(.timeline-event-thumbnail) {padding-bottom: 1.2em;}
+.timeline-2 .timeline-event-copy p:not(.timeline-event-thumbnail) {padding-bottom: 0.2em;}
 
 /* Timeline sample 3*/
 .timeline-3 {padding: 40px 0;}
