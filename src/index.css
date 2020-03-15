@@ -13,5 +13,9 @@ code {
 }
 
 ul {
-  list-style: none;
+  list-style: none!important;
+}
+
+ul ul {
+  list-style: none!important;
 }
