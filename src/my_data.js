@@ -1,4 +1,4 @@
-{
+export default {
     "education":{
        "history":[
           {
@@ -26,7 +26,7 @@
              "state":"Delhi",
              "country":"Inda",
              "title":"Matriculation",
-             "fieldOfStudy":"All",
+             "fieldOfStudy":"",
              "start":"04/01/2010",
              "end":"31/03/2011",
              "summary":"Completed my Matriculation / 10th."
@@ -141,10 +141,10 @@
           {
              "position":"Senior Analyst",
              "employer":"HCL technologies",
-             "state":"Uttar Pradesh",
+             "state":"Noida,Uttar Pradesh",
              "country":"India",
              "start":"03/31/2018",
-             "end":"03/14/2020",
+             "end":"",
              "summary":"Joined HCL as GET after graduaction."
           },
           {
@@ -208,9 +208,9 @@
     "lastName":"Gupta",
     "username":"sachingupta",
     "info":{
-       "brief":"A",
+       "brief":"To pursue a challenging career by being associated with a reputed company and to keep pace with the latest technologies while being dedicated in the growth of the organization.",
        "dateOfBirth":"07/26/1995",
-       "profilePhotoURL":"images/profile_photo.png",
+       "profilePhotoURL":"/MyLatestPhoto.jpg",
        "gender":"male"
     },
     "contact":{

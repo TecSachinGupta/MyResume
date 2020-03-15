@@ -6,8 +6,10 @@ import Contact from './components/contact';
 import Education from './components/education';
 import Experience from './components/experience';
 import Header from './components/header';
+import Icons from './components/icons';
 import Projects from './components/projects';
 import Skills from './components/skills';
+import mydata from './my_data';
 
 function App() {
   return (
@@ -15,26 +17,20 @@ function App() {
 		<div className="container">
 			<div className="card">
 				<div className="card-body">
-			
-					<div className="columns">
-						<div className="column col-12">
-							<Header></Header>
-						</div>
-					</div>
-					<div className="divider-vert"></div>
 					<div className="columns">
 						<div className="column col-4">
-							<Skills></Skills>
-							<Contact></Contact>
+							<Header imageUrl={mydata.info.profilePhotoURL} myName={`${mydata.firstName} ${mydata.lastName}`} ></Header>
+							<Contact contact={mydata}></Contact>
+							<Skills skills={mydata.skills}></Skills>
 						</div>
 						
 						<div className="column col-8">
-							<Education></Education>
-							<Experience></Experience>
-							<Projects></Projects>
+  							<blockquote>{mydata.info.brief}</blockquote>
+							<Experience employments={mydata.employment}><Icons icon="briefcase" size="45"></Icons></Experience>
+							<Education educations={mydata.education}><Icons icon="study" size="45"></Icons></Education>
+							<Projects projects={mydata.projects}><Icons icon="tools" size="45"></Icons></Projects>
 						</div>
 					</div>
-			
 				</div>
 			</div>
 		</div>

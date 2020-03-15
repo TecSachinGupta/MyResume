@@ -2,31 +2,31 @@ import React from 'react';
 
 class Education extends React.Component {
 	render() {
+		const data = this.props.educations.history.map(education => {
+			return (
+				<li className="timeline-item">
+					<div className="timeline-info">
+						<span>{`${education.start} - ${education.end ? education.end : 'Till date' } `}</span>
+					</div>
+					<div className="timeline-marker"></div>
+					<div className="timeline-content">
+						<h2>{`${education.title} ${education.fieldOfStudy? ' in ' + education.fieldOfStudy : '' } from ${education.institution},${education.state},${education.country} `}</h2>
+						<p>{education.summary}</p>
+					</div>
+				</li>
+			)
+		});
 		return (
-			<div className="timeline-1">
-				<ul className="timeline">
-					<li className="timeline-item">
-						<div className="timeline-info">
-							<span>3rd March 2015 7:00 PM</span>
-						</div>
-						<div className="timeline-marker"></div>
-						<div className="timeline-content">
-							<h2>Start from ShireStart from ShireStart from ShireStart from ShireStart from ShireStart from ShireStart from Shire</h2>
-							<p>Don't forget the ring.Don't forget the ring Start from ShireStart from ShireStart from ShireStart from ShireStart from ShireStart from ShireStart from Shire</p>
-						</div>
-					</li>
-					<li className="timeline-item">
-						<div className="timeline-info">
-							<span>3rd March 2015 7:00 PM</span>
-						</div>
-						<div className="timeline-marker"></div>
-						<div className="timeline-content">
-							<h2>Start from Shire</h2>
-							<p>Don't forget the ring.Don't forget the ring</p>
-						</div>
-					</li>
-				</ul>
-			</div>
+			<React.Fragment>
+				<div className="componentTitle">
+					<h1>{this.props.children} Education</h1>
+				</div>
+				<div className="timeline-1">
+					<ul className="timeline">
+						{data}
+					</ul>
+				</div>
+			</React.Fragment>
 		);
 	}
 }
