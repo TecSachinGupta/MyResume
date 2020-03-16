@@ -19,3 +19,6 @@ ul {
 ul ul {
   list-style: none!important;
 }
+a:hover, a:focus, a:visited  {
+	text-decoration: none!important;
+}

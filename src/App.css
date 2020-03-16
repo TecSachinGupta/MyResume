@@ -54,6 +54,45 @@ blockquote cite {
   margin-bottom: 1.5rem;
   margin-top: 0;
 }
+.socialDetails {
+	align: center;
+}
+.socialDetails li {
+	display: inline-block;
+	margin: .4rem;
+}.socialDetails li:hover{
+	cursor: pointer;
+}
+.facebook svg:hover,
+.facebook svg:focus {
+fill: #3b5998;
+}.twitter svg:hover,
+.twitter svg:focus {
+fill: #77DDF6;
+}.github svg:hover,
+.github svg:focus {
+fill: black;
+}.bitbucket svg:hover,
+.bitbucket svg:focus {
+fill: #003366;
+}.linkedin svg:hover,
+.linkedin svg:focus {
+fill: #0177B5;
+}.instagram svg:hover,
+.instagram svg:focus {
+fill: url(#instagramFill);/*radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);*/
+}
+.contactDetails li {
+	display: inline-flex;
+}
+.contactDetails li svg {
+	width: 10%;
+}
+.contactDetails li span {
+	width: 90%;
+	vertical-align: top;
+	margin-left:.2rem;
+}
 /* Timeline sample 1 */
 .timeline-1 {
   color: #768390;
@@ -74,7 +113,7 @@ blockquote cite {
 .timeline-1 h1,.timeline-1 h2,.timeline-1 h3,.timeline-1 h4,.timeline-1 h5,.timeline-1 h6 {
   color: #3D4351;
   margin-top: 0;
-  line-height: inherit;
+  line-height: .9;
 }
 
 .timeline-1 a {
@@ -151,6 +190,12 @@ blockquote cite {
 
 .timeline-1 .timeline-content {
   padding-bottom: 40px;
+}
+.timeline-1 .timeline-content h2 span {
+  font-size: 1rem;
+}
+.timeline-1 .timeline-content p {
+  width: inherit;
 }
 .timeline-1 .timeline-content p:last-child {
   margin-bottom: 0;

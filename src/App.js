@@ -9,6 +9,7 @@ import Header from './components/header';
 import Icons from './components/icons';
 import Projects from './components/projects';
 import Skills from './components/skills';
+import Social from './components/social';
 import mydata from './my_data';
 
 function App() {
@@ -20,8 +21,9 @@ function App() {
 					<div className="columns">
 						<div className="column col-4">
 							<Header imageUrl={mydata.info.profilePhotoURL} myName={`${mydata.firstName} ${mydata.lastName}`} ></Header>
-							<Contact contact={mydata}></Contact>
+							<Contact contact={mydata.contact}></Contact>
 							<Skills skills={mydata.skills}></Skills>
+							<Social socialData={mydata.social}></Social>
 						</div>
 						
 						<div className="column col-8">

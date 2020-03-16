@@ -101,6 +101,23 @@ export default {
                    "level":"6"
                 }
              ]
+          },
+          {
+             "name":"Cloud Technology",
+             "skills":[
+                {
+                   "name":"Amazon Web Services",
+                   "level":"6"
+                },
+                {
+                   "name":"Google Cloud Platform",
+                   "level":"6"
+                },
+                {
+                   "name":"IBM Cloud Platform",
+                   "level":"6"
+                }
+             ]
           }
        ]
     },
@@ -165,29 +182,34 @@ export default {
     },
     "social":[
        {
+          "label":"LinkedIn",
+          "url":"https://linkedin.com",
+          "user":"devsachingupta"
+       },
+       {
           "label":"Github",
-          "url":"http://github",
+          "url":"https://github.com/DevSachinGupta",
+          "user":"sachingupta"
+       },
+       {
+          "label":"Bitbucket",
+          "url":"https://bitbucket.org/DevSachinGupta",
           "user":"devsachingupta"
        },
        {
           "label":"Twitter",
-          "url":"http://twitter",
+          "url":"https://twitter.com/DevSachinGupta",
           "user":"devsachingupta"
        },
        {
           "label":"Facebook",
-          "url":"http://face",
-          "user":"devsachingupta"
-       },
-       {
-          "label":"Google",
-          "url":"http://google",
+          "url":"https://facebook.com/InventoSachinGupta",
           "user":"devsachin"
        },
        {
-          "label":"Custom",
-          "url":"http://sachingupta.me",
-          "user":"sachingupta"
+          "label":"Instagram",
+          "url":"https://www.instagram.com/inventosachingupta/",
+          "user":"devsachin"
        }
     ],
     "interests":[
@@ -214,14 +236,16 @@ export default {
        "gender":"male"
     },
     "contact":{
-       "phone":"+91-9560247465",
-       "email":"sachingupta01@live.com"
-    },
-    "location":{
-       "address":"RZF-4754/10 Street no. 2 Rajnagar II main railway road",
-       "city":"New Delhi",
-       "state":"Delhi",
-       "code":"110077",
-       "country":"India"
+       "phone":"+91 - 9560247465",
+       "email":"sachingupta01@live.com",
+	   "website": "http://www.sachingupta.me",
+	   "wordpress": "https://tecsachingupta.wordpress.com",
+	   "location":{
+		   "address":"RZF-754/10 Street no. 2 Rajnagar II",
+		   "city":"New Delhi",
+		   "state":"Delhi",
+		   "code":"110077",
+		   "country":"India"
+		}
     }
  }
