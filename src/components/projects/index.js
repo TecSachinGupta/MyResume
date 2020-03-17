@@ -2,9 +2,9 @@ import React from 'react';
 
 class Projects extends React.Component {
 	render() {
-		const data = this.props.projects.map(project => {
+		const data = this.props.projects.map((project, index) => {
 			return (
-				<li className="timeline-item">
+				<li className="timeline-item" key={`project-${index}`}>
 					<div className="timeline-info">
 						<span>{`${project.start} - ${project.end ? project.end : 'Till date' } `}</span>
 					</div>

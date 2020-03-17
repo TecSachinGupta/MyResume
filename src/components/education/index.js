@@ -2,9 +2,9 @@ import React from 'react';
 
 class Education extends React.Component {
 	render() {
-		const data = this.props.educations.history.map(education => {
+		const data = this.props.educations.history.map((education, index) => {
 			return (
-				<li className="timeline-item">
+				<li className="timeline-item" key={`education-${index}`}>
 					<div className="timeline-info">
 						<span>{`${education.start} - ${education.end ? education.end : 'Till date' } `}</span>
 					</div>

@@ -3,18 +3,18 @@ import React from 'react';
 
 class Skills extends React.Component {
 	render() {
-		const data = this.props.skills.sets.map(set => {
+		const data = this.props.skills.sets.map((set, index) => {
 			return (
-				<li>
+				<li key={`skillset-${index}`}>
 					<div className="skillsTitleSet">{set.name}</div>
 					<div className="subSkillsDetails">
 						<ul className="">
-							{set.skills.map(skill => {
+							{set.skills.map((skill,index) => {
 								return (
-									<li>
+									<li key={`skill-${index}`}>
 										{skill.name}
 										<div className="bar bar-sm">
-										<div class="bar-item" role="progressbar" style={{"width": `${skill.level * 10}%`}} aria-valuenow={skill.level} aria-valuemin="0" aria-valuemax="10"></div>
+										<div className="bar-item" role="progressbar" style={{"width": `${skill.level * 10}%`}} aria-valuenow={skill.level} aria-valuemin="0" aria-valuemax="10"></div>
 										</div>
 									</li>
 								)

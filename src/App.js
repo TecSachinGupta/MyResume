@@ -19,14 +19,14 @@ function App() {
 			<div className="card">
 				<div className="card-body">
 					<div className="columns">
-						<div className="column col-4">
+						<div className="column col-sm-12 col-4">
 							<Header imageUrl={mydata.info.profilePhotoURL} myName={`${mydata.firstName} ${mydata.lastName}`} ></Header>
 							<Contact contact={mydata.contact}></Contact>
 							<Skills skills={mydata.skills}></Skills>
 							<Social socialData={mydata.social}></Social>
 						</div>
 						
-						<div className="column col-8">
+						<div className="column col-sm-12 col-8">
   							<blockquote>{mydata.info.brief}</blockquote>
 							<Experience employments={mydata.employment}><Icons icon="briefcase" size="45"></Icons></Experience>
 							<Education educations={mydata.education}><Icons icon="study" size="45"></Icons></Education>
