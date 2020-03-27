@@ -3,13 +3,13 @@ import ICONS from './icons';
 
 class Icons extends React.Component {
 	getPath(iconName) {
-		const icon = ICONS.icons.find(icon => icon.properties.name.toLowerCase() === iconName.toLowerCase());
+		let icon = ICONS.icons.find(icon => icon.properties.name.toLowerCase() === iconName.toLowerCase());
 		
 		if (icon) {
 			return icon.icon.paths.join(' ');
 		} else {
-			console.warn(`icon ${iconName} does not exist.`);
-			return '';
+			icon = ICONS.icons.find(icon => icon.properties.name.toLowerCase() === 'internet'.toLowerCase());
+			return icon.icon.paths.join(' ');
 		}
 	}
 	render() {

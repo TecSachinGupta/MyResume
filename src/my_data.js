@@ -106,11 +106,11 @@ export default {
              "name":"Cloud Technology",
              "skills":[
                 {
-                   "name":"Amazon Web Services",
+                   "name":"Google Cloud Platform",
                    "level":"6"
                 },
-                {
-                   "name":"Google Cloud Platform",
+				{
+                   "name":"Amazon Web Services",
                    "level":"6"
                 },
                 {
@@ -125,15 +125,15 @@ export default {
        {
           "title":"Education Surveillance System",
           "summary":"Major project in B. Tech.",
-          "description":"In ESS, Collect educational data from institutions. ● Find insights that help our educational system to improve. ● Tech. use Python, HDFS, Hive, Flume, Zeppelin etc. ● Challenges are to collect and organizing the structure for data.",
+          "description":"In ESS, Collect educational data from institutions.\n ● Find insights that help our educational system to improve.\n ● Tech. use Python, HDFS, Hive, Flume, Zeppelin etc.\n ● Challenges are to collect and organizing the structure for data.",
           "keywords":[
              "Hadoop",
-             " HDFS",
+             "HDFS",
              "Hive",
              "Zeppline",
              "SQL",
-             " NiFi",
-             " Python"
+             "NiFi",
+             "Python"
           ],
           "url":"",
           "start":"01/01/2018",
@@ -145,8 +145,8 @@ export default {
           "description":"Application in java",
           "keywords":[
              "Java",
-             " Swing",
-             " JDBC"
+             "Swing",
+             "JDBC"
           ],
           "url":"",
           "start":"01/13/2014",
@@ -183,40 +183,60 @@ export default {
     "social":[
        {
           "label":"LinkedIn",
-          "url":"https://linkedin.com",
+          "url":"https://linkedin.com/in/devsachingupta",
           "user":"devsachingupta"
        },
        {
           "label":"Github",
           "url":"https://github.com/DevSachinGupta",
-          "user":"sachingupta"
+          "user":"DevSachinGupta"
        },
        {
           "label":"Bitbucket",
           "url":"https://bitbucket.org/DevSachinGupta",
-          "user":"devsachingupta"
+          "user":"DevSachinGupta"
+       },
+       {
+          "label":"GitLab",
+          "url":"https://gitlab.com/DevSachinGupta",
+          "user":"DevSachinGupta"
        },
        {
           "label":"Twitter",
           "url":"https://twitter.com/DevSachinGupta",
-          "user":"devsachingupta"
+          "user":"DevSachinGupta"
        },
        {
           "label":"Facebook",
           "url":"https://facebook.com/InventoSachinGupta",
-          "user":"devsachin"
+          "user":"InventoSachinGupta"
        },
        {
           "label":"Instagram",
           "url":"https://www.instagram.com/inventosachingupta/",
-          "user":"devsachin"
+          "user":"inventosachingupta"
        }
     ],
     "interests":[
- 
+      {
+         "name": "reading",
+         "summary": "Jane is a fan of mystery novels and courtroom dramas including Agatha Christie and John Grisham.",
+         "keywords": [ "mystery", "Agatha Christie", "John Grisham" ]
+      },
     ],
     "writing":[
- 
+      {
+         "title": "Teach Yourself GORFF in 21 Days",
+         "flavor": "book",
+         "date": "2008",
+         "publisher": {
+           "name": "Amazon",
+           "url": "https://www.amazon.com"
+         },
+         "url": "http://url.to.publication.com/blah",
+         "author": [ "Jane Fullstacker", "John Smith" ],
+         "summary": "A primer on the programming language of GORFF, whose for loops are coterminous with all of time and space."
+      },
     ],
     "accomplishment":[
  
