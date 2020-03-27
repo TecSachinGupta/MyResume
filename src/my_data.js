@@ -125,7 +125,7 @@ export default {
        {
           "title":"Education Surveillance System",
           "summary":"Major project in B. Tech.",
-          "description":"In ESS, Collect educational data from institutions.\n ● Find insights that help our educational system to improve.\n ● Tech. use Python, HDFS, Hive, Flume, Zeppelin etc.\n ● Challenges are to collect and organizing the structure for data.",
+          "description":" ● In ESS, Collect educational data from institutions. ● Find insights that help our educational system to improve. ● Tech. used: Java, Python, HDFS, Hive, Flume, Zeppelin etc. ● Challenges are to collect and organizing the structure for data.",
           "keywords":[
              "Hadoop",
              "HDFS",
@@ -138,6 +138,35 @@ export default {
           "url":"",
           "start":"01/01/2018",
           "end":"04/30/2018"
+       },
+       {
+          "title":"My Resume Website",
+          "summary":"React based project",
+          "description":" ● It is my personal website or my portfolio. ● In the start it was created using the HTML, CSS and Javascript. ● But now its UI had been updated in React.",
+          "keywords":[
+             "HTML",
+             "CSS",
+             "JavaScript",
+             "React",
+             "SVG"
+          ],
+          "url":"",
+          "start":"07/13/2014",
+          "end":"08/13/2014"
+       },
+       {
+          "title":"PharmaSolution",
+          "summary":"New version of Pharmacy Management System",
+          "description":"Update for the project Phamacy Management with new UI and some new changes.",
+          "keywords":[
+             "Java",
+             "JavaFX",
+             "SQLite",
+             "JDBC"
+          ],
+          "url":"",
+          "start":"04/13/2016",
+          "end":"06/13/2016"
        },
        {
           "title":"Pharmacy Management System",
@@ -219,10 +248,30 @@ export default {
     ],
     "interests":[
       {
-         "name": "reading",
-         "summary": "Jane is a fan of mystery novels and courtroom dramas including Agatha Christie and John Grisham.",
-         "keywords": [ "mystery", "Agatha Christie", "John Grisham" ]
+         "name": "Reading",
+         "summary": "",
+         "keywords": [ "" ]
       },
+      {
+         "name": "Writing",
+         "summary": "",
+         "keywords": [ "" ]
+      },
+      {
+         "name": "Learning",
+         "summary": "",
+         "keywords": [ "" ]
+      },
+      {
+         "name": "Listening Music",
+         "summary": "",
+         "keywords": [ "" ]
+      },
+      {
+         "name": "Watching Movies",
+         "summary": "",
+         "keywords": [ "" ]
+      }
     ],
     "writing":[
       {
@@ -239,11 +288,62 @@ export default {
       },
     ],
     "accomplishment":[
- 
+      {
+         "title": "11th CYBER-OLYMPIAD",
+         "summary": "",
+         "date": "MAR 2016",
+         "rank": "3rd"
+       },
+    ],
+    "trainings": {
+      "summary":"",
+      "history":[
+         {
+            "title": "Hadoop Admin & Developer (Big Data)",
+            "company": "Mapping Minds",
+            "place": "Karolbagh, New Delhi, India",
+            "start": "JULY 2016",
+            "end": "OCTOBER 2018",
+            "summary": "● Hadoop Cluster capacity, Tuning, Monitoring, Troubleshooting. ● Adding/removing new nodes to an existing Hadoop cluster.● Experience in analyzing Log files for Hadoop and finding root cause.● Design, configure and manage the backup & Recovery strategies.● Expertise in Hive Query Lang. and developing data analysis model."
+         },
+         {
+            "title": "Java Developer (Core and Advance)",
+            "company": "Appin Tech Labs",
+            "place": "Kalkaji, New Delhi",
+            "start": "JANUARY 2014",
+            "end": "JULY 2014",
+            "summary": "● Core Java Programing. ● SQL in Java. ● J2EE and JSP. ● MVC, Struts, Tiles, Spring. ● Remote Method Invocation in Java."
+         }
+      ]
+    },
+    "interships": [
+      {
+         "title": "Hadoop Admin & Developer (Big Data)",
+         "company": "Radix Info Solution",
+         "place": "Karolbagh, New Delhi, India",
+         "start": "JANUARY 2017",
+         "end": "JUNE 2017",
+         "summary": ""
+      }
     ],
     "capabilities":{
        "list":[
- 
+         {
+            "tag": "Freelancer",
+            "summary": ""
+          },
+          {
+            "tag": "Developer",
+            "summary": ""
+          },
+          {
+            "tag": "Web Developer",
+            "summary": ""
+          },
+          {
+            "tag": "Big Data Adminstrator and Developer",
+            "summary": ""
+          }
        ]
     },
     "firstName":"Sachin",
