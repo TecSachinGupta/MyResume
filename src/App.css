@@ -14,7 +14,8 @@
 .componentTitleLeftSidebar {
   border-bottom: 3px solid black;
 }
-.leftSideHeader h3{
+.leftSideHeader h2{
+  font-weight: 800;
 	text-align:center;
 	text-transform: uppercase;
 }

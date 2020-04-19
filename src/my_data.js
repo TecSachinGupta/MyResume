@@ -157,7 +157,7 @@ export default {
        {
           "title":"PharmaSolution",
           "summary":"New version of Pharmacy Management System",
-          "description":"Update for the project Phamacy Management with new UI and some new changes.",
+          "description":"● Created to learn the JavaFx for better application development. ● It is just an upgrade of my previous project Pharmacy management System. ● Trying to reduce the overhead caused by designing a modern UI. ● Also reducing the weight of the application by reducig the need of the database for single system. ",
           "keywords":[
              "Java",
              "JavaFX",
@@ -171,7 +171,7 @@ export default {
        {
           "title":"Pharmacy Management System",
           "summary":"Major project for Diploma",
-          "description":"Application in java",
+          "description":"● Created as the major project in the completion of the Diploma. ● Getting data of the medicines and the different major required functionallity. ● System to support retail purpose as well as storekeeping. ● Storing and updating the medicines details either for inventory or for the retail purpose.",
           "keywords":[
              "Java",
              "Swing",
@@ -350,7 +350,7 @@ export default {
     "lastName":"Gupta",
     "username":"sachingupta",
     "info":{
-       "brief":"To pursue a challenging career by being associated with a reputed company and to keep pace with the latest technologies while being dedicated in the growth of the organization.",
+       "brief":"To keep pace with the latest technologies while being dedicated in finding solutions to different problems.",
        "dateOfBirth":"07/26/1995",
        "profilePhotoURL":"/MyLatestPhoto.jpg",
        "gender":"male"
