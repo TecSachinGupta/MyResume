@@ -11,7 +11,7 @@ class Projects extends React.Component {
 					<div className="timeline-marker"></div>
 					<div className="timeline-content">
 						<h2>{project.title}, <span>{project.summary}</span></h2>
-						<p>{project.description}</p>
+						<div className="timeline-summary"><ul>{project.description.split("-->").map(d => <li>{d}</li>)}</ul></div>
 					</div>
 				</li>
 			)

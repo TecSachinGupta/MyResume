@@ -125,7 +125,7 @@ export default {
        {
           "title":"Education Surveillance System",
           "summary":"Major project in B. Tech.",
-          "description":" ● In ESS, Collect educational data from institutions. ● Find insights that help our educational system to improve. ● Tech. used: Java, Python, HDFS, Hive, Flume, Zeppelin etc. ● Challenges are to collect and organizing the structure for data.",
+          "description":"-->In ESS, Collect educational data from institutions.-->Find insights that help our educational system to improve.-->Tech. used: Java, Python, HDFS, Hive, Flume, Zeppelin etc.-->Challenges are to collect and organizing the structure for data.",
           "keywords":[
              "Hadoop",
              "HDFS",
@@ -142,7 +142,7 @@ export default {
        {
           "title":"My Resume Website",
           "summary":"React based project",
-          "description":" ● It is my personal website or my portfolio. ● In the start it was created using the HTML, CSS and Javascript. ● But now its UI had been updated in React.",
+          "description":"-->It is my personal website or my portfolio.-->In the start it was created using the HTML, CSS and Javascript.-->But now its UI had been updated in React.",
           "keywords":[
              "HTML",
              "CSS",
@@ -157,7 +157,7 @@ export default {
        {
           "title":"PharmaSolution",
           "summary":"New version of Pharmacy Management System",
-          "description":"● Created to learn the JavaFx for better application development. ● It is just an upgrade of my previous project Pharmacy management System. ● Trying to reduce the overhead caused by designing a modern UI. ● Also reducing the weight of the application by reducig the need of the database for single system. ",
+          "description":"-->Created to learn the JavaFx for better application development.-->It is just an upgrade of my previous project Pharmacy management System.-->Trying to reduce the overhead caused by designing a modern UI.-->Also reducing the weight of the application by reducig the need of the database for single system.",
           "keywords":[
              "Java",
              "JavaFX",
@@ -171,7 +171,7 @@ export default {
        {
           "title":"Pharmacy Management System",
           "summary":"Major project for Diploma",
-          "description":"● Created as the major project in the completion of the Diploma. ● Getting data of the medicines and the different major required functionallity. ● System to support retail purpose as well as storekeeping. ● Storing and updating the medicines details either for inventory or for the retail purpose.",
+          "description":"-->Created as the major project in the completion of the Diploma.-->Getting data of the medicines and the different major required functionallity.-->System to support retail purpose as well as storekeeping.-->Storing and updating the medicines details either for inventory or for the retail purpose.",
           "keywords":[
              "Java",
              "Swing",
@@ -191,7 +191,7 @@ export default {
              "country":"India",
              "start":"03/31/2018",
              "end":"",
-             "summary":"Joined HCL as GET after graduaction."
+             "summary":"-->Working as devloper for enchancing and implementing new changes.-->Implemented incidents classification using Apache OpenNLP.-->Data visualization for various reporting dashboard using Java and D3.js"
           },
           {
              "position":"Java trainer",
@@ -200,7 +200,7 @@ export default {
              "country":"India",
              "start":"06/01/2014",
              "end":"30/04/2015",
-             "summary":"Worked as the Java trainer but provide training in C, C++ and java."
+             "summary":"-->Worked as the trainer for different programming languages.-->Used to taught C, C++ and Java.-->Used to teach a variety of groups like working professionals, students etc."
           }
        ]
     },

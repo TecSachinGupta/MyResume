@@ -10,7 +10,7 @@ class Experience extends React.Component {
 					<p className="timeline-event-thumbnail">{`${employment.start} - ${employment.end ? employment.end : 'Till date' } `}</p>
 					<h3>{`${employment.employer}, ${employment.state}, ${employment.country}`}</h3>
 					<h4>{employment.position}</h4>
-					<p>{employment.summary}</p>
+					<div className="timeline-summary"><ul>{employment.summary.split("-->").map(d => <li>{d}</li>)}</ul></div>
 					</div>
 				</li>
 			)
