@@ -10,7 +10,7 @@ class Education extends React.Component {
 					</div>
 					<div className="timeline-marker"></div>
 					<div className="timeline-content">
-						<h2>{`${education.title} ${education.fieldOfStudy? ' in ' + education.fieldOfStudy : '' } `} <span>{`from ${education.institution},${education.state},${education.country} `}</span></h2>
+						<h2>{`${education.title} ${education.fieldOfStudy? ' in ' + education.fieldOfStudy : '' } `} <br /> <span>{`${education.institution},${education.state},${education.country} `}</span></h2>
 						<p>{education.summary}</p>
 					</div>
 				</li>

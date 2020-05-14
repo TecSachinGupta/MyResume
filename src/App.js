@@ -29,8 +29,8 @@ function App() {
 						
 						<div className="column col-sm-12 col-8">
   							<blockquote className="hide-sm">{mydata.info.brief}</blockquote>
-							<Experience employments={mydata.employment}><Icons icon="briefcase" size="45"></Icons></Experience>
-							<Education educations={mydata.education}><Icons icon="study" size="45"></Icons></Education>
+							<Experience employments={mydata.employment}><Icons icon="briefcase" size="45" className="verticalAlignBottom"></Icons></Experience>
+							<Education educations={mydata.education}><Icons icon="study" size="45" className="verticalAlignBottom"></Icons></Education>
 							<Projects projects={mydata.projects}><Icons icon="tools" size="45"></Icons></Projects>
 						</div>
 					</div>

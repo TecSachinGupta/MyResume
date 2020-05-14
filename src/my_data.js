@@ -9,7 +9,7 @@ export default {
              "fieldOfStudy":"Computer Science and Engineering",
              "start":"07/01/2015",
              "end":"06/28/2018",
-             "summary":"Completed my graduation in Computer Science Engineering "
+             "summary":"Completed graduation in Computer Science Engineering from Guru Govind Singh Indraprastha University(GGSIPU) with 74%."
           },
           {
              "institution":"Ambedkar Polytechnic",
@@ -19,7 +19,7 @@ export default {
              "fieldOfStudy":"Computer Engineering",
              "start":"08/01/2011",
              "end":"31/05/2014",
-             "summary":"Completed technical diploma in computer engineering."
+             "summary":"Completed technical diploma in computer engineering from Board of Technical Education(BTE) with 79.25%."
           },
           {
              "institution":"Government Boys Senior Secondary School",
@@ -29,7 +29,7 @@ export default {
              "fieldOfStudy":"",
              "start":"04/01/2010",
              "end":"31/03/2011",
-             "summary":"Completed my Matriculation / 10th."
+             "summary":"Completed high school from Central Board of Secondary Education (CBSE) with 79.9%."
           }
        ]
     },
@@ -125,7 +125,7 @@ export default {
        {
           "title":"Education Surveillance System",
           "summary":"Major project in B. Tech.",
-          "description":"-->In ESS, Collect educational data from institutions.-->Find insights that help our educational system to improve.-->Tech. used: Java, Python, HDFS, Hive, Flume, Zeppelin etc.-->Challenges are to collect and organizing the structure for data.",
+          "description":"-->The aim of the project is to find insightful information by analyzing the large data set collected from Eductaional Institutions to futher improve our Educational System.-->The Challenge is to gather data from various institutions and further structuring of the relevant data.​-->Tech. used: Java, Python, HDFS, Hive, Flume, Zeppelin etc.",
           "keywords":[
              "Hadoop",
              "HDFS",
@@ -142,7 +142,7 @@ export default {
        {
           "title":"My Resume Website",
           "summary":"React based project",
-          "description":"-->It is my personal website or my portfolio.-->In the start it was created using the HTML, CSS and Javascript.-->But now its UI had been updated in React.",
+          "description":"-->To showcase my skills to public, I have developed my website.-->It is a portfolio website, initially created with HTML, CSS and Javascript.-->Now the UI has been updated to react.",
           "keywords":[
              "HTML",
              "CSS",
@@ -157,7 +157,7 @@ export default {
        {
           "title":"PharmaSolution",
           "summary":"New version of Pharmacy Management System",
-          "description":"-->Created to learn the JavaFx for better application development.-->It is just an upgrade of my previous project Pharmacy management System.-->Trying to reduce the overhead caused by designing a modern UI.-->Also reducing the weight of the application by reducig the need of the database for single system.",
+          "description":"-->Created to learn the JavaFx for better application development and UI upgradation.-->It is just an upgrade of my previous project Pharmacy management System.",
           "keywords":[
              "Java",
              "JavaFX",
@@ -186,21 +186,21 @@ export default {
        "history":[
           {
              "position":"Senior Analyst",
-             "employer":"HCL technologies",
-             "state":"Noida,Uttar Pradesh",
+             "employer":"HCL Technologies",
+             "state":"Noida, Uttar Pradesh",
              "country":"India",
              "start":"03/31/2018",
              "end":"",
-             "summary":"-->Working as devloper for enchancing and implementing new changes.-->Implemented incidents classification using Apache OpenNLP.-->Data visualization for various reporting dashboard using Java and D3.js"
+             "summary":"-->Responsible for enhancing the existing products problems.-->Also responsible to implement some new changes.-->Implemented incidents classification using Apache OpenNLP.-->Data visualization for various reporting dashboard using Java and D3.js"
           },
           {
              "position":"Java trainer",
              "employer":"IIHT ICCP",
-             "state":"Delhi",
+             "state":"South Extension, Delhi",
              "country":"India",
              "start":"06/01/2014",
              "end":"30/04/2015",
-             "summary":"-->Worked as the trainer for different programming languages.-->Used to taught C, C++ and Java.-->Used to teach a variety of groups like working professionals, students etc."
+             "summary":"-->Mentored working professionals, students on different programming languages to enhance their technical skills and make them industry ready.-->Used to taught C, C++ and Java."
           }
        ]
     },

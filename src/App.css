@@ -2,6 +2,9 @@
   padding: 5rem 9rem; /*3rem 5rem*/
   background-color: #78C0A8; /* #ef795a;*/
 }
+.verticalAlignBottom {
+  vertical-align: bottom;
+}
 .componentTitle {
   margin-top: 2rem;
   margin-bottom: 1.5rem;
@@ -122,6 +125,7 @@ fill: #fc6dc7;
   color: #3D4351;
   margin-top: 0;
   line-height: .9;
+  font-size: 1.75em;
 }
 
 .timeline-1 a {
@@ -197,7 +201,7 @@ fill: #fc6dc7;
 }
 
 .timeline-1 .timeline-content {
-  padding-bottom: 40px;
+  padding-bottom: 25px;
 }
 .timeline-1 .timeline-content h2 span {
   font-size: 1rem;
@@ -317,7 +321,7 @@ fill: #fc6dc7;
   position: relative;
   top: -1.875em;
   left: .4em;
-  width: 80%;
+  width: 90%;
   padding-bottom: 0;
 }
 .timeline-2 .timeline-event-copy h3 {
