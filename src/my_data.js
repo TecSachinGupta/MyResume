@@ -125,7 +125,7 @@ export default {
        {
           "title":"Education Surveillance System",
           "summary":"Major project in B. Tech.",
-          "description":"-->The aim of the project is to find insightful information by analyzing the large data set collected from Eductaional Institutions to futher improve our Educational System.-->The Challenge is to gather data from various institutions and further structuring of the relevant data.​-->Tech. used: Java, Python, HDFS, Hive, Flume, Zeppelin etc.",
+          "description":"-->The aim of the project is to find insightful information by analyzing the large data set collected from Eductaional Institutions which will help in improve our Educational System.-->The Challenge is to gather data from various institutions and further structuring of the relevant data.​-->Technology used: Java, Python, HDFS, Hive, Flume, Zeppelin etc.",
           "keywords":[
              "Hadoop",
              "HDFS",
@@ -171,7 +171,7 @@ export default {
        {
           "title":"Pharmacy Management System",
           "summary":"Major project for Diploma",
-          "description":"-->Created as the major project in the completion of the Diploma.-->Getting data of the medicines and the different major required functionallity.-->System to support retail purpose as well as storekeeping.-->Storing and updating the medicines details either for inventory or for the retail purpose.",
+          "description":"-->Getting data of the medicines and the different details of required functionality.-->System to support retail purpose as well as storekeeping.-->Storing and updating the medicines details either for inventory or for the retail purpose.-->Technology Used: Java, Swing, JDBC, MySQL",
           "keywords":[
              "Java",
              "Swing",
@@ -200,7 +200,7 @@ export default {
              "country":"India",
              "start":"06/01/2014",
              "end":"30/04/2015",
-             "summary":"-->Mentored working professionals, students on different programming languages to enhance their technical skills and make them industry ready.-->Used to taught C, C++ and Java."
+             "summary":"-->Mentored working professionals, students on different programming languages to enhance their technical skills and make them industry ready.-->Programming Languages includes C, C++ and Java."
           }
        ]
     },
