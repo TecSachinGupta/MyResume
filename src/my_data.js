@@ -125,7 +125,7 @@ export default {
        {
           "title":"Education Surveillance System",
           "summary":"Major project in B. Tech.",
-          "description":"-->The aim of the project is to find insightful information by analyzing the large data set collected from Eductaional Institutions which will help in improve our Educational System.-->The Challenge is to gather data from various institutions and further structuring of the relevant data.​-->Technology used: Java, Python, HDFS, Hive, Flume, Zeppelin etc.",
+          "description":"-->The aim of the project is to find insightful information by analyzing the large data set collected from Educational Institutions which will help in improving our Educational System.-->The Challenge is to gather data from various institutions and further structuring of the relevant data.​-->Technology used: Java, Python, HDFS, Hive, Flume, Zeppelin etc.",
           "keywords":[
              "Hadoop",
              "HDFS",
