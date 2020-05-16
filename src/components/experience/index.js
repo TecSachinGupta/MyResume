@@ -3,7 +3,6 @@ import React from 'react';
 class Experience extends React.Component {
 	render() {
 		const data = this.props.employments.history.map((employment, index) => {
-			console.log("index", employment.summary.split("-->"));
 			return (
 				<li className="timeline-event" key={`experience-${index}`}>
 					<label className="timeline-event-icon"></label>

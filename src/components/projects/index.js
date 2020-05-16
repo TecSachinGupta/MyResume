@@ -10,7 +10,8 @@ class Projects extends React.Component {
 					</div>
 					<div className="timeline-marker"></div>
 					<div className="timeline-content">
-						<h2>{project.title}<br /><span>{project.summary}</span></h2>
+						<h3>{project.title}</h3>
+						<h4>{project.summary}</h4>
 						<div className="timeline-summary"><ul>{project.description.split("-->").filter(d => d !== "").map(d => <li>{d}</li>)}</ul></div>
 					</div>
 				</li>

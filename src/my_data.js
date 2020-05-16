@@ -191,7 +191,7 @@ export default {
              "country":"India",
              "start":"03/31/2018",
              "end":"",
-             "summary":"-->Responsible for enhancing the existing products problems.-->Also responsible to implement some new changes.-->Implemented incidents classification using Apache OpenNLP.-->Data visualization for various reporting dashboard using Java and D3.js"
+             "summary":"-->Responsible for enhancing the existing application / product.-->Also responsible to implement some new changes.-->Implemented incidents classification using Apache OpenNLP.-->Data visualization for various reporting dashboard using Java and D3.js"
           },
           {
              "position":"Java trainer",
