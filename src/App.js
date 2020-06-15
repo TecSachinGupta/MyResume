@@ -1,4 +1,5 @@
 import React from 'react';
+import { Lines } from 'react-preloaders';
 // import logo from './logo.svg';
 import './App.css';
 import 'spectre.css';
@@ -14,6 +15,7 @@ import mydata from './my_data';
 
 function App() {
   return (
+  <React.Fragment>
     <div className="App">
 		<div className="container">
 			<div className="card">
@@ -38,6 +40,8 @@ function App() {
 			</div>
 		</div>
     </div>
+	<Lines />
+	</React.Fragment>
   );
 }
 
