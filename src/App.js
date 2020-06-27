@@ -40,7 +40,7 @@ function App() {
 			</div>
 		</div>
     </div>
-	<Lines />
+	<Lines color={'#e3f1ff'} background="#0051a2"/>
 	</React.Fragment>
   );
 }
