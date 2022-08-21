@@ -1,5 +1,5 @@
 import React from 'react';
-import { Lines } from 'react-preloaders';
+// import { Lines } from 'react-preloaders';
 // import logo from './logo.svg';
 import './App.css';
 import 'spectre.css';
@@ -15,32 +15,33 @@ import mydata from './my_data';
 
 function App() {
   return (
-  <React.Fragment>
-    <div className="App">
-		<div className="container">
-			<div className="card">
-				<div className="card-body">
-					<div className="columns">
-						<div className="column col-sm-12 col-4">
-							<Header imageUrl={mydata.info.profilePhotoURL} myName={`${mydata.firstName} ${mydata.lastName}`} ></Header>
-							<blockquote className="show-sm">{mydata.info.brief}</blockquote>
-							<Contact contact={mydata.contact}></Contact>
-							<Skills skills={mydata.skills}></Skills>
-							<Social socialData={mydata.social}></Social>
-						</div>
+	<React.Fragment>
+    	<div className="App">
+			<div className="container">
+				<div className="card">
+					<div className="card-body">
+						<div className="columns">
+							<div className="column col-sm-12 col-4">
+								<Header imageUrl={mydata.info.profilePhotoURL} myName={`${mydata.firstName} ${mydata.lastName}`} ></Header>
+								<blockquote className="show-sm">{mydata.info.brief}</blockquote>
+								<Contact contact={mydata.contact}></Contact>
+								<Skills skills={mydata.skills}></Skills>
+								<Social socialData={mydata.social}></Social>
+							</div>
 						
-						<div className="column col-sm-12 col-8">
-  							<blockquote className="hide-sm">{mydata.info.brief}</blockquote>
-							<Experience employments={mydata.employment}><Icons icon="briefcase" size="45" className="verticalAlignBottom"></Icons></Experience>
-							<Education educations={mydata.education}><Icons icon="study" size="45" className="verticalAlignBottom"></Icons></Education>
-							<Projects projects={mydata.projects}><Icons icon="tools" size="45"></Icons></Projects>
+							<div className="column col-sm-12 col-8">
+								<blockquote className="hide-sm">{mydata.info.brief}</blockquote>
+								<Experience employments={mydata.employment}><Icons icon="briefcase" size="45" className="verticalAlignBottom"></Icons></Experience>
+								<Education educations={mydata.education}><Icons icon="study" size="45" className="verticalAlignBottom"></Icons></Education>
+								<Projects projects={mydata.projects}><Icons icon="tools" size="45"></Icons></Projects>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-    </div>
-	<Lines color={'#e3f1ff'} background="#0051a2"/>
+    	</div>
+		
+		
 	</React.Fragment>
   );
 }

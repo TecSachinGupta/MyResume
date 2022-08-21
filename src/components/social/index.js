@@ -22,9 +22,11 @@ class Social extends React.Component {
 					</radialGradient>
 				  </defs>
 				</svg>
-				<ul className="socialDetails" key="skills">
-					{data}
-				</ul>
+				<div className='socialDetails'>
+					<ul key="skills">
+						{data}
+					</ul>
+				</div>
 			</React.Fragment>
 		);
 	}

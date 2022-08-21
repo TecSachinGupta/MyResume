@@ -61,12 +61,13 @@ blockquote cite {
   margin-top: 0;
 }
 .socialDetails {
-	align: center;
+  display: flex;
+  justify-content: center;
 }
-.socialDetails li {
+.socialDetails ul li {
 	display: inline-block;
 	margin: .4rem;
-}.socialDetails li:hover{
+}.socialDetails ul li:hover{
 	cursor: pointer;
 }
 .facebook svg:hover,

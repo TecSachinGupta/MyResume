@@ -1,6 +1,6 @@
-export default {
-    "education":{
-       "history":[
+const my_data = {
+    "education": {
+       "history": [
           {
              "institution":"Guru Tegh Bahadhur Institute of Technology",
              "state":"Delhi",
@@ -74,6 +74,10 @@ export default {
                 {
                    "name":"Hive",
                    "level":"6"
+                },
+                {
+                   "name":"Spark",
+                   "level":"7"
                 },
                 {
                    "name":"Hbase",
@@ -184,14 +188,23 @@ export default {
     ],
     "employment":{
        "history":[
+         {
+            "position":"Consultant",
+            "employer":"EXL Services",
+            "state":"Gurgoan, Haryana",
+            "country":"India",
+            "start":"08/02/2021",
+            "end":"",
+            "summary":"-->Responsible for enhancing the existing application / product.-->Also responsible to implement some new changes.--> Responsible for controlling job cycles, availability of services, balancing cluster load while job execution, etc.. and automation in data execution pipelines"
+         },
           {
              "position":"Senior Analyst",
              "employer":"HCL Technologies",
              "state":"Noida, Uttar Pradesh",
              "country":"India",
-             "start":"03/31/2018",
-             "end":"",
-             "summary":"-->Responsible for enhancing the existing application / product.-->Also responsible to implement some new changes.-->Implemented incidents classification using Apache OpenNLP.-->Data visualization for various reporting dashboard using Java and D3.js"
+             "start":"06/28/2018",
+             "end":"07/30/2021",
+             "summary":"-->Responsible for enhancing the existing application / product.-->Also responsible to implement some new changes.--> Responsible for controlling job cycles, availability of services, balancing cluster load while job execution, etc..-->Implemented incidents classification using Apache OpenNLP.-->Data visualization for various reporting dashboard using Java and D3.js and automation in data execution pipelines"
           },
           {
              "position":"Java trainer",
@@ -231,19 +244,9 @@ export default {
           "user":"DevSachinGupta"
        },
        {
-          "label":"Twitter",
-          "url":"https://twitter.com/DevSachinGupta",
-          "user":"DevSachinGupta"
-       },
-       {
           "label":"Facebook",
           "url":"https://facebook.com/InventoSachinGupta",
           "user":"InventoSachinGupta"
-       },
-       {
-          "label":"Instagram",
-          "url":"https://www.instagram.com/inventosachingupta/",
-          "user":"inventosachingupta"
        }
     ],
     "interests":[
@@ -285,7 +288,7 @@ export default {
          "url": "http://url.to.publication.com/blah",
          "author": [ "Jane Fullstacker", "John Smith" ],
          "summary": "A primer on the programming language of GORFF, whose for loops are coterminous with all of time and space."
-      },
+      }
     ],
     "accomplishment":[
       {
@@ -293,7 +296,7 @@ export default {
          "summary": "",
          "date": "MAR 2016",
          "rank": "3rd"
-       },
+       }
     ],
     "trainings": {
       "summary":"",
@@ -369,3 +372,5 @@ export default {
 		}
     }
  }
+
+export default my_data;
